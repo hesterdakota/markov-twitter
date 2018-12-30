@@ -6,17 +6,17 @@ Pulls a user's tweets and runs them through a markov chain generator, then tweet
 
 # Installation
 ## Dependencies
-'markov-twitter' requires [python-twitter](https://github.com/bear/python-twitter) and [markovify](https://github.com/jsvine/markovify). Install these using
-'''bash
+`markov-twitter` requires [python-twitter](https://github.com/bear/python-twitter) and [markovify](https://github.com/jsvine/markovify). Install these using
+```bash
 pip3 install python-twitter markovify
-'''
+```
 Please note that markov-twitter is only to be used with Python 3.
 ## Cloning
 Installation is typical. Just clone the repo into a directory of your choosing, 'cd' in, and you're ready to go.
-'''bash
+```bash
 git clone https://github.com/hesterdakota/markov-twitter.git
 cd markov-twitter
-'''
+```
 
 # Configuration
 Set up the Twitter API in 'APICredentials.py'. Further info can be found [here](https://github.com/bear/python-twitter#api).
@@ -24,4 +24,7 @@ Set the desired user target with the 'user_name' variable. Ensure that the usern
 More tweaking can be found in the python-twitter docs [here](https://python-twitter.readthedocs.io/en/latest/) and the markovify docs [here](https://github.com/jsvine/markovify).
 
 # Running
-After you're set up, just run 'main.py' in Python 3. That's all.
+After you're set up, just run `main.py` in Python 3. That's all.
+```bash
+python3 main.py
+```
